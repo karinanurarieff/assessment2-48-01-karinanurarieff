@@ -3,8 +3,8 @@ import java.util.*;
 public class DaftarCuci {
     List<Cucian> daftar = new ArrayList<>();
 
-    public void terimaCucian(int idCuci, String namaPelanggan, int tanggalMasuk, String tipeCucian, int berat) {
-        daftar.add(new Cucian(idCuci, namaPelanggan, tanggalMasuk, tipeCucian, berat));
+    public void terimaCucian(int idCuci, String namaPelanggan, int tanggalMasuk, String tipeCucian) {
+        daftar.add(new Cucian(idCuci, namaPelanggan, tanggalMasuk, tipeCucian));
     }
 
 public void tampilkanUrutanCucian() {
